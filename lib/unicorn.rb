@@ -1,3 +1,4 @@
+require 'pry'
 class Unicorn
 
 attr_reader :name, :color
@@ -14,4 +15,5 @@ attr_reader :name, :color
  def say(string)
    p "**;* #{string} **;*"
  end
+
 end

@@ -1,3 +1,4 @@
+require 'pry'
 class Dragon
 
 attr_reader :name, :color, :rider, :food
